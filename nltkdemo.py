@@ -28,7 +28,7 @@ def get_title_string(text):
 text_list = [text1, text2, text3, text4, text5, text6, text7, text8, text9]
 lex_div_list = []
 length_list = []
-print(text3[0:10])
+
 for text in text_list:
     length_list.append(len(set(text)))
     lex_div_list.append(len(set(text))/len(text))
